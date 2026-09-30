@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>發送名片｜李冠霖 Oc</title>
+<style>
+  :root{--ink:#141414;--gold:#D4A845;--gold-dim:#8C7A4A;--text:#F2E6C4;}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--ink);color:var(--text);
+    font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+  main{min-height:100%;display:flex;flex-direction:column;justify-content:center;
+    padding:32px 24px calc(32px + env(safe-area-inset-bottom,0px));max-width:420px;margin:0 auto}
+  .name{border-left:4px solid var(--gold);padding-left:14px;margin-bottom:8px}
+  .name b{display:block;font-size:34px;color:var(--gold);letter-spacing:.02em}
+  .name span{font-size:14px;color:var(--gold-dim);letter-spacing:.15em}
+  .co{font-size:14px;color:var(--text);margin:18px 0 40px;padding-bottom:14px;border-bottom:1px solid var(--gold)}
+  button{width:100%;padding:18px;border:0;border-radius:14px;background:var(--gold);color:var(--ink);
+    font-size:18px;font-weight:700;font-family:inherit}
+  button:disabled{opacity:.45}
+  button:focus-visible{outline:3px solid var(--text);outline-offset:3px}
+  #msg{min-height:1.5em;margin-top:16px;font-size:14px;color:var(--gold-dim);text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <div class="name"><b>李冠霖 Oc</b><span>Guan-Lin, Li</span></div>
+  <div class="co">Co-founder / CIO　毛焦點科技股份有限公司</div>
+  <button id="send" disabled>選擇好友，發送名片</button>
+  <div id="msg">載入中…</div>
+</main>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<script>
+  // ↓↓↓ 把這裡換成你的 LIFF ID（只要改這一行）↓↓↓
+  const LIFF_ID = "PASTE_LIFF_ID_HERE";
+
+  const CARD = {
+    type: "flex",
+    altText: "李冠霖 Oc｜毛焦點科技 Co-founder / CIO 的名片",
+    contents: {"type": "bubble", "size": "mega", "styles": {"body": {"backgroundColor": "#141414"}, "footer": {"backgroundColor": "#141414", "separator": true, "separatorColor": "#3A3220"}}, "body": {"type": "box", "layout": "vertical", "paddingAll": "20px", "spacing": "sm", "contents": [{"type": "text", "text": "Co-founder / CIO", "size": "sm", "weight": "bold", "color": "#FFFFFF"}, {"type": "box", "layout": "horizontal", "spacing": "md", "margin": "md", "contents": [{"type": "box", "layout": "vertical", "width": "4px", "backgroundColor": "#D4A845", "contents": []}, {"type": "box", "layout": "vertical", "contents": [{"type": "text", "text": "李冠霖 Oc", "size": "xxl", "weight": "bold", "color": "#D4A845"}, {"type": "text", "text": "Guan-Lin, Li", "size": "xs", "color": "#8C7A4A"}]}]}, {"type": "text", "text": "毛焦點科技股份有限公司", "size": "sm", "color": "#E6C66E", "margin": "lg"}, {"type": "text", "text": "GAIABIT TECHNOLOGY CO., LTD.", "size": "xxs", "color": "#8C7A4A"}, {"type": "separator", "color": "#D4A845", "margin": "md"}, {"type": "box", "layout": "vertical", "spacing": "sm", "margin": "lg", "contents": [{"type": "box", "layout": "horizontal", "spacing": "md", "contents": [{"type": "text", "text": "📱", "size": "sm", "flex": 0}, {"type": "text", "text": "0900-621-331", "size": "sm", "color": "#E6C66E", "wrap": true, "flex": 1}]}, {"type": "box", "layout": "horizontal", "spacing": "md", "contents": [{"type": "text", "text": "☎️", "size": "sm", "flex": 0}, {"type": "text", "text": "(02) 2208-5171", "size": "sm", "color": "#E6C66E", "wrap": true, "flex": 1}]}, {"type": "box", "layout": "horizontal", "spacing": "md", "contents": [{"type": "text", "text": "✉️", "size": "sm", "flex": 0}, {"type": "text", "text": "iaedoc0407@gaia-bit.com", "size": "sm", "color": "#E6C66E", "wrap": true, "flex": 1}]}, {"type": "box", "layout": "horizontal", "spacing": "md", "contents": [{"type": "text", "text": "💬", "size": "sm", "flex": 0}, {"type": "text", "text": "LINE ID：32637385", "size": "sm", "color": "#E6C66E", "wrap": true, "flex": 1}]}, {"type": "box", "layout": "horizontal", "spacing": "md", "contents": [{"type": "text", "text": "📍", "size": "sm", "flex": 0}, {"type": "text", "text": "242 新北市新莊區新崑路143號2樓", "size": "sm", "color": "#E6C66E", "wrap": true, "flex": 1}]}]}]}, "footer": {"type": "box", "layout": "vertical", "spacing": "sm", "paddingAll": "16px", "contents": [{"type": "box", "layout": "horizontal", "spacing": "sm", "contents": [{"type": "button", "style": "primary", "color": "#B8913A", "height": "sm", "action": {"label": "撥手機", "type": "uri", "uri": "tel:0900621331"}}, {"type": "button", "style": "primary", "color": "#B8913A", "height": "sm", "action": {"label": "撥公司", "type": "uri", "uri": "tel:0222085171"}}]}, {"type": "box", "layout": "horizontal", "spacing": "sm", "contents": [{"type": "button", "style": "primary", "color": "#B8913A", "height": "sm", "action": {"label": "加 LINE", "type": "uri", "uri": "https://line.me/ti/p/~32637385"}}, {"type": "button", "style": "primary", "color": "#B8913A", "height": "sm", "action": {"label": "導航", "type": "uri", "uri": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E8%8E%8A%E5%8D%80%E6%96%B0%E5%B4%91%E8%B7%AF143%E8%99%9F2%E6%A8%93"}}]}, {"type": "button", "style": "primary", "color": "#B8913A", "height": "sm", "action": {"label": "複製 Email", "type": "clipboard", "clipboardText": "iaedoc0407@gaia-bit.com"}}]}}
+  };
+
+  const btn = document.getElementById("send");
+  const msg = document.getElementById("msg");
+
+  async function start() {
+    try {
+      await liff.init({ liffId: LIFF_ID });
+      if (!liff.isLoggedIn()) { liff.login(); return; }
+      if (!liff.isApiAvailable("shareTargetPicker")) {
+        msg.textContent = "這個環境不能發送，請在 LINE 裡打開，並確認 LIFF 已開啟 shareTargetPicker。";
+        return;
+      }
+      btn.disabled = false;
+      msg.textContent = "";
+    } catch (e) {
+      msg.textContent = "初始化失敗：" + (e.message || e) + "（檢查 LIFF ID 是否正確）";
+    }
+  }
+
+  btn.addEventListener("click", async () => {
+    try {
+      const res = await liff.shareTargetPicker([CARD]);
+      msg.textContent = res ? "名片已送出" : "已取消，沒有發送";
+    } catch (e) {
+      msg.textContent = "發送失敗：" + (e.message || e);
+    }
+  });
+
+  start();
+</script>
+</body>
+</html>
