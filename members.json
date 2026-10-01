@@ -1,0 +1,182 @@
+{
+  "oc": {
+    "mobile": {
+      "show": {
+        "zh": "0900-621-331",
+        "en": "+886 900-621-331",
+        "ja": "+886 900-621-331"
+      },
+      "tel": "+886900621331"
+    },
+    "office": {
+      "show": {
+        "zh": "(02) 2208-5171",
+        "en": "+886 2 2208-5171",
+        "ja": "+886 2 2208-5171"
+      },
+      "tel": "+886222085171"
+    },
+    "email": "iaedoc0407@gaia-bit.com",
+    "line_id": "32637385",
+    "map_query": "新北市新莊區新崑路143號2樓",
+    "zh": {
+      "title": "Co-founder / CIO",
+      "name": "李冠霖 Oc",
+      "name_sub": "Guan-Lin, Li",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GAIABIT TECHNOLOGY CO., LTD.",
+      "address": "242 新北市新莊區新崑路143號2樓"
+    },
+    "en": {
+      "title": "Co-founder / CIO",
+      "name": "Guan-Lin (Oc) Li",
+      "name_sub": "李冠霖",
+      "company": "GaiaBit Technology Co., Ltd.",
+      "company_sub": "毛焦點科技股份有限公司",
+      "address": "2F., No. 143, Xinkun Rd., Xinzhuang Dist., New Taipei City 242, Taiwan"
+    },
+    "ja": {
+      "title": "共同創業者 / CIO",
+      "name": "李冠霖 Oc",
+      "name_sub": "Guan-Lin, Li",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GaiaBit Technology Co., Ltd.",
+      "address": "〒242 台湾 新北市新荘区新崑路143号2階"
+    }
+  },
+  "starck": {
+    "mobile": {
+      "show": {
+        "zh": "0963-635-602",
+        "en": "+886 963-635-602",
+        "ja": "+886 963-635-602"
+      },
+      "tel": "+886963635602"
+    },
+    "office": {
+      "show": {
+        "zh": "(02) 2208-5171",
+        "en": "+886 2 2208-5171",
+        "ja": "+886 2 2208-5171"
+      },
+      "tel": "+886222085171"
+    },
+    "email": "starckwang@gaia-bit.com",
+    "line_id": "memorywang",
+    "map_query": "新北市新莊區新崑路143號2樓",
+    "zh": {
+      "title": "Co-founder / Consultant",
+      "name": "王昱晟 Starck",
+      "name_sub": "Yu-Cheng, Wang",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GAIABIT TECHNOLOGY CO., LTD.",
+      "address": "242 新北市新莊區新崑路143號2樓"
+    },
+    "en": {
+      "title": "Co-founder / Consultant",
+      "name": "Yu-Cheng (Starck) Wang",
+      "name_sub": "王昱晟",
+      "company": "GaiaBit Technology Co., Ltd.",
+      "company_sub": "毛焦點科技股份有限公司",
+      "address": "2F., No. 143, Xinkun Rd., Xinzhuang Dist., New Taipei City 242, Taiwan"
+    },
+    "ja": {
+      "title": "共同創業者 / コンサルタント",
+      "name": "王昱晟 Starck",
+      "name_sub": "Yu-Cheng, Wang",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GaiaBit Technology Co., Ltd.",
+      "address": "〒242 台湾 新北市新荘区新崑路143号2階"
+    }
+  },
+  "thomas": {
+    "mobile": {
+      "show": {
+        "zh": "0938-823-617",
+        "en": "+886 938-823-617",
+        "ja": "+886 938-823-617"
+      },
+      "tel": "+886938823617"
+    },
+    "office": {
+      "show": {
+        "zh": "(02) 2208-5171",
+        "en": "+886 2 2208-5171",
+        "ja": "+886 2 2208-5171"
+      },
+      "tel": "+886222085171"
+    },
+    "email": "thomas08@gaia-bit.com",
+    "line_id": "yuxin_1389",
+    "map_query": "新北市新莊區新崑路143號2樓",
+    "zh": {
+      "title": "Co-founder / CEO",
+      "name": "沈育愷 Thomas",
+      "name_sub": "Yu-Kai, Shen",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GAIABIT TECHNOLOGY CO., LTD.",
+      "address": "242 新北市新莊區新崑路143號2樓"
+    },
+    "en": {
+      "title": "Co-founder / CEO",
+      "name": "Yu-Kai (Thomas) Shen",
+      "name_sub": "沈育愷",
+      "company": "GaiaBit Technology Co., Ltd.",
+      "company_sub": "毛焦點科技股份有限公司",
+      "address": "2F., No. 143, Xinkun Rd., Xinzhuang Dist., New Taipei City 242, Taiwan"
+    },
+    "ja": {
+      "title": "共同創業者 / CEO",
+      "name": "沈育愷 Thomas",
+      "name_sub": "Yu-Kai, Shen",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GaiaBit Technology Co., Ltd.",
+      "address": "〒242 台湾 新北市新荘区新崑路143号2階"
+    }
+  },
+  "yage": {
+    "mobile": {
+      "show": {
+        "zh": "0901-120-750",
+        "en": "+886 901-120-750",
+        "ja": "+886 901-120-750"
+      },
+      "tel": "+886901120750"
+    },
+    "office": {
+      "show": {
+        "zh": "(02) 2208-5171",
+        "en": "+886 2 2208-5171",
+        "ja": "+886 2 2208-5171"
+      },
+      "tel": "+886222085171"
+    },
+    "email": "yage@gaia-bit.com",
+    "line_id": "0975429286",
+    "map_query": "新北市新莊區新崑路143號2樓",
+    "zh": {
+      "title": "Co-founder / CTO",
+      "name": "黃雅各 Yage",
+      "name_sub": "Ya-Ge, Huang",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GAIABIT TECHNOLOGY CO., LTD.",
+      "address": "242 新北市新莊區新崑路143號2樓"
+    },
+    "en": {
+      "title": "Co-founder / CTO",
+      "name": "Ya-Ge (Yage) Huang",
+      "name_sub": "黃雅各",
+      "company": "GaiaBit Technology Co., Ltd.",
+      "company_sub": "毛焦點科技股份有限公司",
+      "address": "2F., No. 143, Xinkun Rd., Xinzhuang Dist., New Taipei City 242, Taiwan"
+    },
+    "ja": {
+      "title": "共同創業者 / CTO",
+      "name": "黃雅各 Yage",
+      "name_sub": "Ya-Ge, Huang",
+      "company": "毛焦點科技股份有限公司",
+      "company_sub": "GaiaBit Technology Co., Ltd.",
+      "address": "〒242 台湾 新北市新荘区新崑路143号2階"
+    }
+  }
+}
